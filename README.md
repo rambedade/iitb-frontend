@@ -83,5 +83,5 @@ This project is **open-source** and available under the **MIT License**.
 
 ---
 
-🚀 **Developed by [Your Name](https://github.com/yourusername)**
+🚀 **Developed by [Rameshwar Bedade](https://github.com/rambedade)**
 
