@@ -1,87 +1,59 @@
-# Animal Table Management System
+# Animal Tables 🐾
 
-## 📌 Project Overview
-This project is a **dynamic and interactive** animal management system built using **HTML, CSS, and JavaScript** with the help of **Bootstrap**. It allows users to **view, add, edit, and delete animals** from categorized tables of **Big Cats, Dogs, and Big Fish**. The project also features **sorting options**, a **responsive design**, and a **beautiful UI with gradient colors**.
+A simple and interactive **Animal Tables** web application that allows users to **add, edit, delete, and sort animals** by name, size, and location. The application is built using **HTML, CSS, and JavaScript**.
 
-## ✨ Features
-- 🏆 **CRUD Operations**: Add, Edit, and Delete animals dynamically.
-- 🔄 **Sorting Functionality**: Sort animals based on **Name, Size, and Location**.
-- 🎨 **Beautiful UI**: Stylish design using **Bootstrap and Custom CSS**.
-- 📱 **Fully Responsive**: Works seamlessly on **desktop, tablet, and mobile**.
-- 🖼️ **Hover Effects on Images**: Enlarges images on hover.
+## Features ✨
+- 📌 **Add & Edit Animals** – Users can add new animals or edit existing ones.
+- 🗑 **Delete Animals** – Remove animals from the list.
+- 📌 **Sort Animals** – Sort by **name, size, or location**.
+- 📷 **Image Display** – Each animal entry includes an image.
+- 📱 **Fully Responsive** – Works smoothly on **mobile, tablet, and desktop**.
 
-## 🏗️ Technologies Used
-- **HTML5**
-- **CSS3 (Bootstrap & Custom Styling)**
-- **JavaScript (Vanilla)**
-- **JSON (Data Storage)**
+## Technologies Used 🛠
+- **HTML** – Structure of the application.
+- **CSS** – Styled using responsive **Flexbox and Grid**.
+- **JavaScript** – Handles sorting, CRUD operations, and rendering the animal list.
 
-## 🚀 Installation & Setup
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/animal-table-management.git
-   cd animal-table-management
-   ```
+## Installation & Usage 🚀
 
-2. **Open in a Live Server (VS Code Recommended)**:
-   ```sh
-   Right-click index.html → Open with Live Server
-   ```
-   OR use:
-   ```sh
-   npx serve
-   ```
-
-3. **Ensure all images are placed inside the `images/` folder**.
-
-## 📂 Project Structure
-```
-animal-table-management/
-│── index.html
-│── index.css
-│── index.js
-│── data.json
-│── images/
-│   ├── tiger.jpg
-│   ├── lion.jpg
-│   ├── rottweiler.jpg
-│   ├── labrador.jpg
-│   ├── whale.jpg
-│   ├── (other images...)
-│── README.md
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/rambedade/iitb-frontend
 ```
 
-## 📜 How to Use
-### ➕ Add a New Animal
-1. Click on the **"Add Animal"** button below the desired table.
-2. Enter the **Name, Size, Location, and Image Filename**.
-3. Click **OK** and the new entry will appear in the table.
+### 2️⃣ Navigate to Project Folder
+```sh
+cd animal-tables
+```
 
-### ✏️ Edit an Animal
-1. Click on the **Edit** button in the respective row.
-2. Modify the details in the prompted fields.
-3. Click **OK** to save changes.
+### 3️⃣ Open `index.html`
+Simply open `index.html` in any modern web browser.
 
-### ❌ Delete an Animal
-1. Click on the **Delete** button in the respective row.
-2. The entry will be **permanently removed** from the table.
+## Folder Structure 📂
+```
+📁 animal-tables
+├── 📄 index.html     # Main HTML file
+├── 📄 index.css      # Stylesheet
+├── 📄 index.js       # JavaScript functionality
+└── 📄 README.md      # Project documentation
+```
 
-### 🔽 Sorting
-- Click on the **"↕"** button in the table headers to sort by Name, Size, or Location.
-- Or use the **"Sort"** button below each table for quick sorting.
+## Screenshots 📸
+🔹 **Desktop View:**
+![image](https://github.com/user-attachments/assets/28f47375-5e12-4633-9e53-7b9c3654151b)
 
-## 📷 Screenshots
-_(Add screenshots of your project here)_
 
-## 📌 Future Enhancements
-- 🌍 **Connect to a Backend Database (MongoDB or Firebase)**
-- 📊 **Add Graphical Representations (Charts for Animal Stats)**
-- 🛠️ **Dark Mode Toggle**
+## Future Enhancements 🚀
+- ✅ Implement **local storage** to persist data.
+- ✅ Add **search functionality** to filter animals.
+- ✅ Improve **UI/UX with animations**.
 
-## 📜 License
-This project is **open-source** and available under the **MIT License**.
+## Contributing 🤝
+Pull requests are welcome! Feel free to **fork** this repository and submit a **PR** for improvements.
+
+## License 📜
+This project is **MIT Licensed**. Feel free to use and modify as needed.
 
 ---
-
-🚀 **Developed by [Rameshwar Bedade](https://github.com/rambedade)**
+Developed with ❤️ by [Ram]
 
